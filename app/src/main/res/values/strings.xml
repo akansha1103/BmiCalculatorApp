@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Eat Healthy Be Fabulous</string>
+
+
+    <string-array name="gender_arrays">
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+
+    <string-array name="age_arrays">
+        <item>Bellow 5</item>
+        <item>5-10</item>
+        <item>10-15</item>
+        <item>15-20</item>
+        <item>20-25</item>
+        <item>Above 25</item>
+    </string-array>
+    <string name="bmi_description">Body Mass Index is a person weight in kilograms divided by the square of height in meters. A high BMI can be an indicator of high body fatness.Metric Method - The metric formula accepts height measurements in meters and weight in kilograms.
+        BMI = (Weight in Kilograms)/(Height in meters * Height in meters)</string>
+
+    <string name="makegoal_description">Start with something simple, do not start off with a ridiculous goal that you will never achieve, as you will just feel bad when you do not get there</string>
+    <string name="makeplan_description">Find some spare time after school or at sports practice, and add an exercise routine to fill the gaps. </string>
+    <string name="consume_healthy_description">Eat five small meals each day, every 3-4 hours. Your blood sugar level will be steady, and you will not feel as hungry.
+</string>
+    <string name="dolightexe_description">Do light exercise before breakfast, even if it is only stretching </string>
+    <string name="avoid_buy_description">Avoid buying food in the school cafeteria or shop or take junk food. </string>
+    <string name="drink_water_description">Drink at least 8 glasses of water in a day to fit for digestion. </string>
+    <string name="walking_jogging_description">Walk as much as you can: Listen to music while exercising. Music helps in exercising more without getting too tired.</string>
+
+    <string name="about_description">BMI Calculator offers to calculate Body Mass index, Weight to Height ratio,BMI Calculator helps you to  Underweight, Normal, Overweight, Obese, or Severely Obese. You can save your BMI score and keep track of it within App.
+</string>
+</resources>

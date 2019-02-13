@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img">
+
+    <RelativeLayout
+        android:id="@+id/relativeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/header_img">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="Eat Healthy Be Fabulous"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/logo_icon_img" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeHeader">
+
+
+        <ImageView
+            android:id="@+id/imageViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/app_name_text_img" />
+
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewTitle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:orientation="vertical">
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="About Application"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:textStyle="normal"
+                    android:typeface="serif" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginLeft="10dp"
+
+                    android:text="@string/about_description"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+
+                    android:typeface="serif" />
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Apps Goal"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:textStyle="normal"
+                    android:typeface="serif" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginLeft="10dp"
+
+                    android:text="@string/makegoal_description"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+
+                    android:typeface="serif" />
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Developed By"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:textStyle="normal"
+                    android:typeface="serif" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginLeft="10dp"
+
+                    android:text="Adit Jindal And Chaitanya Gupta"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+
+                    android:typeface="serif" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Contact Email"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:textStyle="normal"
+                    android:typeface="serif" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginLeft="10dp"
+
+                    android:text="aditjindal27@gmail.com chaitanya.gupta@live.com"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+
+                    android:typeface="serif" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Contact No."
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:textStyle="normal"
+                    android:typeface="serif" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginLeft="10dp"
+
+                    android:text="+918283838744,+919780310552"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+
+                    android:typeface="serif" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

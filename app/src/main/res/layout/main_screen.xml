@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img">
+
+    <RelativeLayout
+        android:id="@+id/relativeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/header_img">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="Eat Healthy Be Fabulous"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/logo_icon_img" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeHeader">
+
+
+        <ImageView
+            android:id="@+id/imageViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/app_name_text_img" />
+
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewTitle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/input_img"
+                    android:ems="10"
+                    android:hint="Enter Name"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="20dp"
+                    android:textSize="15dp"
+                    android:typeface="serif" />
+
+                <EditText
+                    android:id="@+id/editEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/input_img"
+                    android:ems="10"
+                    android:hint="Enter EMail"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="20dp"
+                    android:textSize="15dp"
+                    android:typeface="serif" />
+
+
+                <EditText
+                    android:id="@+id/editWeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/input_img"
+                    android:ems="10"
+                    android:hint="Enter Weight(KG)"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:paddingLeft="20dp"
+                    android:textSize="15dp"
+                    android:typeface="serif" />
+
+                <EditText
+                    android:id="@+id/editHeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/input_img"
+                    android:ems="10"
+                    android:hint="Enter Height(CM)"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:paddingLeft="20dp"
+                    android:textSize="15dp"
+                    android:typeface="serif" />
+
+
+                <EditText
+                    android:id="@+id/editAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/input_img"
+                    android:ems="10"
+                    android:hint="Enter Age"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:paddingLeft="20dp"
+                    android:textSize="15dp"
+                    android:typeface="serif" />
+
+                <Spinner
+                    android:id="@+id/spinnerGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/spinner_img"
+                    android:entries="@array/gender_arrays"
+                    android:hint="Enter Gender"
+                    android:paddingLeft="20dp"
+                    android:textSize="15dp"
+                    android:typeface="serif" />
+
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/big_button_img"
+
+                    android:paddingLeft="20dp"
+
+                    android:text="Submit Here"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/textResult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginLeft="10dp"
+
+                    android:text="Please Fill All Field To fine BMI"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/makegoal_description"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18dp"
+                        android:textStyle="normal"
+                        android:typeface="serif" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
